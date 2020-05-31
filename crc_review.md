@@ -29,13 +29,12 @@
 3. Please include a complete table of contents including chapter and section
     headings.
 
-    - [Why we need a statistical
-      revolution](https://senseaboutscienceusa.org/super-learning-and-the-revolution-in-knowledge/)
-    - The Roadmap and introductory case study: the WASH Beneifits data
+     - The Roadmap for Targeted Learning
+     - Example Datasets and Case Studies
     - Introduction to the [`tlverse` software ecosystem](https://tlverse.org)
     - Cross-validation with the [`origami`](https://github.com/origami) package
-    - Ensemble machine learning with the [`sl3`](https://github.com/tlverse/sl3)
-       package
+    - Ensemble super (machine) learning with the
+      [`sl3`](https://github.com/tlverse/sl3) package
     - Targeted learning for causal inference with the
       [`tmle3`](https://github.com/tlverse/tmle3) package
     - Optimal treatments regimes and the
@@ -115,7 +114,7 @@
     Will you use Latex, bookdown, or Word? We will supply a style file for
     LaTeX authors and request an unformatted file from Word authors.
 
-    * A final draft of the book should be available by 01 September 2020.
+    * A final draft of the book should be available by 01 January 2021.
     * Our book has been prepared using bookdown.
 
 
@@ -124,7 +123,10 @@
 9. Please give the names and e-mail addresses of four people who would be
      qualified to give an opinion on your proposed book.
 
-  [TO FILL IN]
+    * Ashley Naimi, University of Pittsburgh
+    * Linda Valeri, Columbia University
+    * Constantin Frangakis, Johns
+    * Michael Hudgens
 
 
 ## MARKETING
@@ -133,11 +135,17 @@
       societies outside of statistics to which it should be marketed? (All
       major statistical societies will be covered.)
 
-  [TO FILL IN]
+  
 
 11. Please list up to six key features of your proposed book that we can use
       in bulleted form.
 
+    *
+    *
+    *
+    *
+    *
+    *
   [TO FILL IN]
 
 12. Please list up to six key words or phrases that people interested in this
@@ -145,7 +153,7 @@
       title as these will already be found.
 
     * Causal inference, machine learning, applied statistics, statistical
-        computing, statistical software (reproducible research?), biostatistics
+        computing, biostatistics
 
 13. Please select the three most important markets for your book. Other
       categories are available including education, psychology, and economics
