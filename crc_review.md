@@ -11,7 +11,7 @@
 
 1. Provisional title of your book.
 
-   * The Hitchhiker's Guide to the tlverse: A Targeted Learning Practioner's
+   * The Hitchhiker's Guide to the tlverse: A Targeted Learning Practitioner's
       Handbook
 
 2. Names, titles, affiliations, and email addresses for all authors/editors
@@ -31,7 +31,7 @@
 
     - [Why we need a statistical
       revolution](https://senseaboutscienceusa.org/super-learning-and-the-revolution-in-knowledge/)
-    - The Roadmap and introductory case study: the WASH Beneifits data
+    - The Roadmap and introductory case study: the WASH Benefits data
     - Introduction to the [`tlverse` software ecosystem](https://tlverse.org)
     - Cross-validation with the [`origami`](https://github.com/origami) package
     - Ensemble machine learning with the [`sl3`](https://github.com/tlverse/sl3)
@@ -115,7 +115,7 @@
     Will you use Latex, bookdown, or Word? We will supply a style file for
     LaTeX authors and request an unformatted file from Word authors.
 
-    * A final draft of the book should be available by 01 September 2020.
+    * A final draft of the book should be available by 01 January 2021.
     * Our book has been prepared using bookdown.
 
 
@@ -125,7 +125,10 @@
      qualified to give an opinion on your proposed book.
 
   [TO FILL IN]
-
+  Ideas for the type of person we'd like to have as a reviewer:
+  1. writer of TMLE software (e.g. Eric Polley, Susan Gruber)
+  2. writer of well-documented / easy-to-use R software 
+  3. applied statistician or data scientist who has worked with TMLE/SL
 
 ## MARKETING
 
@@ -145,7 +148,8 @@
       title as these will already be found.
 
     * Causal inference, machine learning, applied statistics, statistical
-        computing, statistical software (reproducible research?), biostatistics
+        computing, statistical software (reproducible research?), biostatistics,
+        data science, predictive analytics
 
 13. Please select the three most important markets for your book. Other
       categories are available including education, psychology, and economics
@@ -184,7 +188,7 @@
 > CMS15-Computer Science & Engineering-Machine Learning and Pattern Recognition
 > CMS18-Computer Science & Engineering-High Performance Computing
 
-*Envirommental Science*
+*Environmental Science*
 > ENV11A-Environmental Science-Environmental & Ecological Risk Assessment
 > ENV12A-Environmental Science-Environmental  Modeling & Systems Analysis
 > ENV13A-Environmental Science-Ecology
