@@ -11,7 +11,7 @@
 
 1. Provisional title of your book.
 
-   * The Hitchhiker's Guide to the tlverse: A Targeted Learning Practioner's
+   * The Hitchhiker's Guide to the tlverse: A Targeted Learning Practitioner's
       Handbook
 
 2. Names, titles, affiliations, and email addresses for all authors/editors
@@ -128,6 +128,10 @@
     * Constantin Frangakis, Johns
     * Michael Hudgens
 
+  More ideas for the type of person we'd like to have as a reviewer:
+  1. writer of TMLE software (e.g. Eric Polley, Susan Gruber)
+  2. writer of well-documented / easy-to-use R software
+  3. applied statistician or data scientist who has worked with TMLE/SL
 
 ## MARKETING
 
@@ -135,25 +139,25 @@
       societies outside of statistics to which it should be marketed? (All
       major statistical societies will be covered.)
 
-  
+   Society for Epidemiologic Research
 
 11. Please list up to six key features of your proposed book that we can use
       in bulleted form.
 
-    *
-    *
-    *
-    *
-    *
-    *
   [TO FILL IN]
+    *
+    *
+    *
+    *
+    *
+    *
 
 12. Please list up to six key words or phrases that people interested in this
       topic may use to search Amazon or the web. Do not repeat words in the
       title as these will already be found.
 
-    * Causal inference, machine learning, applied statistics, statistical
-        computing, biostatistics
+    * Causal inference, machine learning, statistical computing,
+        biostatistics, data science, predictive/prescriptive analytics
 
 13. Please select the three most important markets for your book. Other
       categories are available including education, psychology, and economics
@@ -161,23 +165,38 @@
 
 *Statistics*
 > STA01A-Statistics-Statistics for Life Sciences
+
 > STA02A-Statistics-Introductory Statistics & General References
+
 > STA04A-Statistics-Probability Theory & Applications
+
 > STA06A-Statistics-SPC/Reliability/Quality Control
+
 > **STA07A-Statistics-Statistical Theory & Methods**
+
 > **STA07J-Statistics-Statistical Learning & Data Mining**
+
 > STA08A-Statistics-Computational Statistics
+
 > STA09A-Statistics-Statistics for Business, Finance & Economics
+
 > STA10A-Statistics-Statistics for Engineering and Physical Science
+
 > **STA11A-Statistics-Biostatistics and Epidemiology**
+
 > STA12A-Statistics-Statistics for the Social and Behavioral Sciences
+
 > STA13A-Statistics-Environmental Statistics
+
 > STA14A-Statistics-Statistical Genetics & Bioinformatics
 
 *Biomedical Science*
 > BIO01D-Biomedical Science-Bioinformatics
+
 > BIO01I-Biomedical Science-Epidemiology
+
 > BIO01O-Biomedical Science-Neuroscience
+
 > BIO01V-Biomedical Science-Medical Devices
 
 *Business*
@@ -185,16 +204,24 @@
 
 *Computer Science*
 > CMS05-Computer Science & Engineering-Computational Biology
+
 > CMS07-Computer Science & Engineering-Computer Graphics
+
 > CMS08-Computer Science & Engineering-Visualization
+
 > CMS11-Computer Science & Engineering-Data Mining and Knowledge Discovery
+
 > CMS13-Computer Science & Engineering-Discrete Systems
+
 > CMS15-Computer Science & Engineering-Machine Learning and Pattern Recognition
+
 > CMS18-Computer Science & Engineering-High Performance Computing
 
-*Envirommental Science*
+*Environmental Science*
 > ENV11A-Environmental Science-Environmental & Ecological Risk Assessment
+
 > ENV12A-Environmental Science-Environmental  Modeling & Systems Analysis
+
 > ENV13A-Environmental Science-Ecology
 
 *Geoscience*
@@ -205,11 +232,16 @@
 
 *Mathematics*
 > MTH14A-Mathematics-Operations Research
+
 > MTH15A-Mathematics-Probability Theory & Applications
 
 *Medicine*
 > MED02I-Medicine-Clinical Medicine-Microbiology & Infectious Diseases
+
 > MED02J5-Medicine-Clinical Medicine-Medical Genetics
+
 > PHR-Pharmaceutical Science & Regulation
+
 > PHR03G-Pharmaceutical Science & Regulation-Clinical Trials
+
 > PHR03L-Pharmaceutical Science & Regulation-Drug Development
