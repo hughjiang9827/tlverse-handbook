@@ -127,6 +127,8 @@
     * Linda Valeri, Columbia University
     * Constantin Frangakis, Johns
     * Michael Hudgens
+    * Peter Gilbert
+    * 
 
   More ideas for the type of person we'd like to have as a reviewer:
   1. writer of TMLE software (e.g. Eric Polley, Susan Gruber)
