@@ -1,9 +1,11 @@
+<!--
 > I usually begin by reviewing a proposal. Most authors find these comments
 > useful and revise their proposal, and we usually decide whether to offer
 > a contract at this stage. If we agree on a contract, I review chapters as
 > written in sets of about 100 pages. You want to learn early if you have the
 > essential topics, are writing at the intended level, and have enough
 > motivation and examples so you can adjust your style if necessary.
+-->
 
 # CHAPMAN & HALL/CRC STATISTICS BOOK PROPOSAL
 
@@ -18,7 +20,7 @@
 
       * Mark van der Laan, UC Berkeley, laan@berkeley.edu
       * Alan Hubbard, UC Berkeley, hubbard@berkeley.edu
-      * Jeremy Coyle, jeremy.coyle@gmail.com
+      * Jeremy Coyle, UC Berkeley, jeremy.coyle@gmail.com
       * Nima Hejazi, UC Berkeley, nhejazi@berkeley.edu
       * Ivana Malenica, UC Berkeley, imalenica@berkeley.edu
       * Rachael Phillips, UC Berkeley, rachaelvphillips@berkeley.edu
@@ -32,15 +34,15 @@
      - The Roadmap for Targeted Learning
      - Example Datasets and Case Studies
     - Introduction to the [`tlverse` software ecosystem](https://tlverse.org)
-    - Cross-validation with the [`origami`](https://github.com/origami) package
-    - Ensemble super (machine) learning with the
-      [`sl3`](https://github.com/tlverse/sl3) package
-    - Targeted learning for causal inference with the
-      [`tmle3`](https://github.com/tlverse/tmle3) package
-    - Optimal treatments regimes and the
-      [`tmle3mopttx`](https://github.com/tlverse/tmle3mopttx) package
-    - Stochastic treatment regimes and the
-      [`tmle3shift`](https://github.com/tlverse/tmle3shift) package
+    - Cross-validation with [`origami`](https://github.com/origami)
+    - Ensemble super (machine) learning with
+      [`sl3`](https://github.com/tlverse/sl3)
+    - Targeted learning for causal inference with
+      [`tmle3`](https://github.com/tlverse/tmle3)
+    - Learning optimal treatments regimes with
+      [`tmle3mopttx`](https://github.com/tlverse/tmle3mopttx)
+    - Assessing stochastic treatment regimes with
+      [`tmle3shift`](https://github.com/tlverse/tmle3shift)
 
 
 ## SUBJECT/AUDIENCE
@@ -52,29 +54,46 @@
   *The Hitchhiker's Guide to the `tlverse`: A Targeted Learning Practitioner's
   Handbook* is an open-source and fully-reproducible handbook for applying the
   Targeted Learning framework and statistical methodology in practice using the
-  `tlverse` software ecosystem (https://github.com/tlverse).
+  `tlverse` software ecosystem (https://github.com/tlverse). The materials have
+  been developed, tested, and refined across a series of short courses focused
+  on the applications of Targeted Learning, all delivered at major academic
+  conferences.
 
   The contents of this handbook are meant to serve as a reference guide for
-  applied research as well as materials that can be taught in a series of short
-  courses focused on the applications of Targeted Learning. Each section
-  introduces a set of distinct causal questions, motivated by a case study,
-  alongside statistical methodology and software for assessing the causal claim
-  of interest.
+  applying the Targeted Learning methodology in research settings, throughout
+  the biomedical, health, and social sciences. The book will empower all manner
+  of researchers to use this state-of-the-art methodology in rigorously
+  developing statistical answers to scientific questions grounded in causal
+  inference. Each section introduces a set of distinct causal questions, each
+  motivated by a set of case studies, alongside statistical methodology and
+  software for assessing the causal claims of interest.
 
-  [TO FILL IN]
+  Necessary background for engaging with the handbook includes intermediate
+  knowledge of statistical concepts and methodology (e.g., null hypotheses,
+  hypothesis testing, confidence intervals), a basic working knowledge of
+  statistical estimation and machine learning (e.g., what is a linear model?,
+  what are prediction algorithms?), and some background in R programming. The
+  handbook is intended to be self-contained -- as such, much background in
+  causal inference and Targeted Learning are included. Introductory reference
+  material will be provided in an appendix.
 
 5. Will your book be primarily a reference/monograph or textbook? If a
     textbook, for which courses will it be the primary text and at what level
     is the course taught? Will you include exercises sets and supply a
     solutions manual?
 
-  The book is intended as a reference, aiming to help applied researchers get up
-  to speed in using the Targeted Learning framework, and the tlverse software
-  ecosystem, to bring statistical rigor to thee analysis of their data. As the
-  book has been used as a reference for teaching workshops, it includes
-  a limited set of exercises as well as solutions to those exercises. Since the
-  exercises are entirely programming/coding-based, a solutions manual will be
-  made freely available online.
+  The book is intended as a reference, aiming to support researchers in using
+  the Targeted Learning framework to develop rigorous answers to questions
+  rooted in causal inference and arising in a vast array of application areas.
+  Principally, the handbook aims to provide a gentle but thorough introduction
+  to the Targeted Learning methodology, demonstrating its use in case studies
+  rather than delving into theoretical detail at the level of existing reference
+  texts (see below) and relevant primary literature. Secondarily, the handbook
+  also serves as long-form documentation of the rich set of tools available in
+  the `tlverse` software ecosystem. While not intended as a textbook, this work
+  has been developed and refined through teaching a series of workshops; to aid
+  in this, a limited set of exercises were developed (solutions to exercises
+  will be made available online and possibly in an appendix).
 
 6. What related books are available and what advantages will your book have?
 
@@ -83,20 +102,22 @@
     * 2018, Targeted Learning in Data Science: Causal Inference for Complex
         Longitudinal Studies (Mark van der Laan and Sherri Rose)
 
-  The focus of this work is __not__ on providing in-depth technical descriptions
-  or in communicating recent developments in state-of-the-art statistical
-  methodology, in stark contrast to the two prior books on Targeted Learning.
-  Instead, the goal is to convey key details of state-of-the-art techniques in
-  an manner that is both clear and complete, without burdening the reader with
-  extraneous technical information/details. We aim for the book to serve as
-  a comprehensive reference and handbook for researchers -- methodologists and
-  domain specialists alike -- who wish to employ the central tools the central
-  statistical tools of the Targeted Learning framework efficiently. The material
-  covered is a mix of key ideas in causal inference, machine learning, and
-  non/semi-parametric statistical theory, all presented in the context of
-  developing solutions to complex and carefully considered real-world data
-  analysis questions using the accompanying free and open source `tlverse`
-  software ecosystem (https://github.com/tlverse).
+  Th work is focus __not__ on providing in-depth technical descriptions or in
+  communicating the most recent developments in state-of-the-art statistical
+  methodology, in stark contrast to the two existing books on Targeted Learning.
+  Instead, the goal is to convey both the underlying unifying concepts and key
+  details of the broad set of state-of-the-art Targeted Learning techniques in
+  a manner that is both clear and complete, without burdening the reader with
+  extraneous technical details. We aim for the book to serve as a comprehensive
+  reference and handbook for researchers -- methodologists and domain
+  specialists alike -- who wish to employ the central statistical tools of the
+  Targeted Learning framework efficiently. The material covered is a mix of key
+  ideas in causal inference, machine learning, and non/semi-parametric
+  statistical theory, all presented in the context of developing solutions to
+  complex and carefully considered real-world data analysis questions.
+  Throughout the text, all aspects of the methodology are demonstrated using the
+  accompanying free and open source `tlverse` software ecosystem
+  (https://github.com/tlverse).
 
 
 ## PRODUCTION
@@ -107,15 +128,15 @@
     increase the price so black and white should be used unless color is
     essential.
 
-    * Approximate page count: [TO FILL IN]
+    * Approximate page count: 200-250 pages.
     * Color figures are *not* essential to our book.
 
 8. When would you hope to be able to submit the final draft of the book to us?
-    Will you use Latex, bookdown, or Word? We will supply a style file for
+    Will you use LaTeX, bookdown, or Word? We will supply a style file for
     LaTeX authors and request an unformatted file from Word authors.
 
-    * A final draft of the book should be available by 01 January 2021.
-    * Our book has been prepared using bookdown.
+    * A final draft of the book will be available by 01 January 2021.
+    * Our book has been prepared using the bookdown R package.
 
 
 ## REVIEWS
@@ -125,8 +146,9 @@
 
     * Ashley Naimi, University of Pittsburgh
     * Linda Valeri, Columbia University
-    * Constantin Frangakis, Johns
-    * Michael Hudgens
+    * Constantin Frangakis, Johns Hopkins University
+    * Michael Hudgens, University of North Carolina
+    * Peter Gilbert, Fred Hutchinson Cancer Research Center
 
   More ideas for the type of person we'd like to have as a reviewer:
   1. writer of TMLE software (e.g. Eric Polley, Susan Gruber)
@@ -163,7 +185,8 @@
       categories are available including education, psychology, and economics
       so please mention other important disciplines.
 
-*Statistics*
+   Selected market sections in __bold__ below.
+
 > STA01A-Statistics-Statistics for Life Sciences
 
 > STA02A-Statistics-Introductory Statistics & General References
@@ -189,59 +212,3 @@
 > STA13A-Statistics-Environmental Statistics
 
 > STA14A-Statistics-Statistical Genetics & Bioinformatics
-
-*Biomedical Science*
-> BIO01D-Biomedical Science-Bioinformatics
-
-> BIO01I-Biomedical Science-Epidemiology
-
-> BIO01O-Biomedical Science-Neuroscience
-
-> BIO01V-Biomedical Science-Medical Devices
-
-*Business*
-> BUS08A-Business & Management-Business Information Systems
-
-*Computer Science*
-> CMS05-Computer Science & Engineering-Computational Biology
-
-> CMS07-Computer Science & Engineering-Computer Graphics
-
-> CMS08-Computer Science & Engineering-Visualization
-
-> CMS11-Computer Science & Engineering-Data Mining and Knowledge Discovery
-
-> CMS13-Computer Science & Engineering-Discrete Systems
-
-> CMS15-Computer Science & Engineering-Machine Learning and Pattern Recognition
-
-> CMS18-Computer Science & Engineering-High Performance Computing
-
-*Environmental Science*
-> ENV11A-Environmental Science-Environmental & Ecological Risk Assessment
-
-> ENV12A-Environmental Science-Environmental  Modeling & Systems Analysis
-
-> ENV13A-Environmental Science-Ecology
-
-*Geoscience*
-> GEO03-Geoscience-Geology
-
-*Life Science*
-> LIF05C-Life Science-Genetics
-
-*Mathematics*
-> MTH14A-Mathematics-Operations Research
-
-> MTH15A-Mathematics-Probability Theory & Applications
-
-*Medicine*
-> MED02I-Medicine-Clinical Medicine-Microbiology & Infectious Diseases
-
-> MED02J5-Medicine-Clinical Medicine-Medical Genetics
-
-> PHR-Pharmaceutical Science & Regulation
-
-> PHR03G-Pharmaceutical Science & Regulation-Clinical Trials
-
-> PHR03L-Pharmaceutical Science & Regulation-Drug Development
