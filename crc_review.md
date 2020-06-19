@@ -32,26 +32,35 @@
     headings.
 
      - The Roadmap for Targeted Learning
+
            - Learning Objectives
            - Introduction
            - The Roadmap
            - Summary of the Roadmap
            - Causal Target Parameters
+
      - Welcome to the [`tlverse`](https://tlverse.org)
+
            - Learning Objectives
            - What is the `tlverse`?
            - `tlverse` Components
            - Installation
+
      - Example Datasets and Case Studies
+
            - WASH Benefits Example Dataset
            - International Stroke Trial Example Dataset
            - Veterans' Administration Lung Cancer Trial Dataset
+
     - Cross-validation
+
           - Learning Objectives?
           - Why Split Your Sample?
           - Cross-validating arbitrary models
           - Exercises
+
     - Super (Machine) Learning
+
           - Learning Objectives
           - Motivation
           - Introduction
@@ -61,7 +70,9 @@
           - Exercises
           - Concluding Remarks
           - Appendix
+
     - The TMLE Framework
+
           - Learning Objectives
           - Introduction
           - Easy-Bake Example: `tmle3` for ATE
@@ -69,12 +80,14 @@
           - Fitting `tmle3` with Multiple Parameters
           - Exercises
           - Summary
+
     - Optimal Individualized Treatments Regimes
+
           - Learning Objectives
           - Introduction to Optimal Individualized Interventions
           - Data Structure and Notation
           - Defining the Causal Effect of an Optimal Individualized Intervention
-          - Interpreting the Causal Effect of an Optimal Individualized Intervention
+          - Interpreting the Causal Effect of Optimal Individualized Interventions
           - Evaluating the Causal Effect of an OIT with Binary Treatment
           - Evaluating the Causal Effect of an Optimal ITR with Categorical
                Treatment
@@ -82,7 +95,9 @@
           - Variable Importance Analysis with OIT
           - Real-World Data and `tmle3mopttx`
           - Exercises
+
     - Stochastic Treatment Regimes
+
           - Learning Objectives
           - Introduction to Stochastic Interventions
           - Data Structure and Notation
@@ -91,7 +106,9 @@
           - Evaluating the Causal Effect of a Stochastic Intervention
           - Extensions: Variable Importance Analysis with Stochastic Interventions
           - Exercises
+
     - Appendix: A Primer on the `R6` Class System
+
           - Classes, Fields, and Methods
           - Object Oriented Programming: Python and R
 
