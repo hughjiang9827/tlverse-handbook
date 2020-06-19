@@ -32,17 +32,68 @@
     headings.
 
      - The Roadmap for Targeted Learning
+           - Learning Objectives
+           - Introduction
+           - The Roadmap
+           - Summary of the Roadmap
+           - Causal Target Parameters
+     - Welcome to the [`tlverse`](https://tlverse.org)
+           - Learning Objectives
+           - What is the `tlverse`?
+           - `tlverse` Components
+           - Installation
      - Example Datasets and Case Studies
-    - Introduction to the [`tlverse` software ecosystem](https://tlverse.org)
-    - Cross-validation with [`origami`](https://github.com/origami)
-    - Ensemble super (machine) learning with
-      [`sl3`](https://github.com/tlverse/sl3)
-    - Targeted learning for causal inference with
-      [`tmle3`](https://github.com/tlverse/tmle3)
-    - Learning optimal treatments regimes with
-      [`tmle3mopttx`](https://github.com/tlverse/tmle3mopttx)
-    - Assessing stochastic treatment regimes with
-      [`tmle3shift`](https://github.com/tlverse/tmle3shift)
+           - WASH Benefits Example Dataset
+           - International Stroke Trial Example Dataset
+           - Veterans' Administration Lung Cancer Trial Dataset
+    - Cross-validation
+          - Learning Objectives?
+          - Why Split Your Sample?
+          - Cross-validating arbitrary models
+          - Exercises
+    - Super (Machine) Learning
+          - Learning Objectives
+          - Motivation
+          - Introduction
+          - `sl3` "Microwave Dinner" Implementation
+          - Cross-validated Super Learner
+          - Variable Importance Measures with `sl3`
+          - Exercises
+          - Concluding Remarks
+          - Appendix
+    - The TMLE Framework
+          - Learning Objectives
+          - Introduction
+          - Easy-Bake Example: `tmle3` for ATE
+          - `tmle3` Components
+          - Fitting `tmle3` with Multiple Parameters
+          - Exercises
+          - Summary
+    - Optimal Individualized Treatments Regimes
+          - Learning Objectives
+          - Introduction to Optimal Individualized Interventions
+          - Data Structure and Notation
+          - Defining the Causal Effect of an Optimal Individualized Intervention
+          - Interpreting the Causal Effect of an Optimal Individualized Intervention
+          - Evaluating the Causal Effect of an OIT with Binary Treatment
+          - Evaluating the Causal Effect of an Optimal ITR with Categorical
+               Treatment
+          - Extensions to Causal Effect of an OIT
+          - Variable Importance Analysis with OIT
+          - Real-World Data and `tmle3mopttx`
+          - Exercises
+    - Stochastic Treatment Regimes
+          - Learning Objectives
+          - Introduction to Stochastic Interventions
+          - Data Structure and Notation
+          - Defining the Causal Effect of a Stochastic Intervention
+          - Interpreting the Causal Effect of a Stochastic Intervention
+          - Evaluating the Causal Effect of a Stochastic Intervention
+          - Extensions: Variable Importance Analysis with Stochastic Interventions
+          - Exercises
+    - Appendix: A Primer on the `R6` Class System
+          - Classes, Fields, and Methods
+          - Object Oriented Programming: Python and R
 
 
 ## SUBJECT/AUDIENCE
@@ -150,10 +201,12 @@
     * Michael Hudgens, University of North Carolina
     * Peter Gilbert, Fred Hutchinson Cancer Research Center
 
+<!--
   More ideas for the type of person we'd like to have as a reviewer:
   1. writer of TMLE software (e.g. Eric Polley, Susan Gruber)
   2. writer of well-documented / easy-to-use R software
   3. applied statistician or data scientist who has worked with TMLE/SL
+-->
 
 ## MARKETING
 
@@ -166,13 +219,14 @@
 11. Please list up to six key features of your proposed book that we can use
       in bulleted form.
 
-  [TO FILL IN]
-    *
-    *
-    *
-    *
-    *
-    *
+    * Learn to leverage the powerful Targeted Learning framework and methodology
+         without a mathematical deep-dive
+    * Introduces both classical and cutting-edge topics in causal inference and
+        non/semi-parametric statistics
+    * Explores predictive and prescriptive data analytics with the `tlverse`
+        software ecosystem
+    * See Targeted Learning in action by engaging with real-world case studies
+        and hands-on examples
 
 12. Please list up to six key words or phrases that people interested in this
       topic may use to search Amazon or the web. Do not repeat words in the
